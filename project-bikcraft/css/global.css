@@ -10,4 +10,6 @@ ul {
 
 a {
   text-decoration: none;
+  padding: 1.6rem 0;
+  display: inline-block;
 }
