@@ -13,3 +13,12 @@ a {
   padding: 1.6rem 0;
   display: inline-block;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  font-family: var(--font-roboto);
+}
