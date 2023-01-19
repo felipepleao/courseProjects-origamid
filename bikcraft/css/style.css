@@ -1,0 +1,9 @@
+@import "./global.css";
+@import "./header.css";
+
+:root {
+  font-size: 62.5%;
+  --bg-black: #000000;
+  --tittle: #FFFFFF;
+  --text: #B2B2B2;
+}
