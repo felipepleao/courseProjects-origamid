@@ -1,34 +1,7 @@
-@import "./global.css";
-@import "./header.css";
-@import "./introducao.css";
-
-:root {
-  font-size: 62.5%;
-  
-  --w: #FFFFFF;
-  --c1: #F7F7F7;
-  --c2: #EDEDED;
-  --c3: #DEDEDE;
-  --c4: #CCCCCC;
-  --c5: #B2B2B2;
-  --c6: #9C9C9C;
-  --c7: #717171;
-  --c8: #595959;
-  --c9: #404040;
-  --c10: #2E2E2E;
-  --c11: #111111;
-  --c12: #000000;
-
-  --p1: #FFBB00;
-  --p2: #E4A30B;
-  --p3: #A66F00;
-  --p4: #664400;
-  --p5: #332200;
-
-  --font-poppins: 'Poppins', sans-serif;
-  --font-roboto: 'Roboto', sans-serif;
-}
-
-body {
-  font-family: var(--font-poppins);
-}
+@import "./global/global.css";
+@import "./utilidades/tipografica.css";
+@import "./utilidades/cores.css";
+@import "./global/header.css";
+@import "./utilidades/componentes.css";
+@import "./home/introducao.css";
+@import "./bicicletas/bicicletas-listas.css";
