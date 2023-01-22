@@ -67,8 +67,12 @@
 }
 
 @media (max-width: 600px) {
+  .header-bg {
+    padding: 2rem 0; 
+  }
+
   .header-menu {
-    gap: 1.2rem;       
+    gap: 1.2rem;        
   }
 
   .header-menu a {
