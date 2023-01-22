@@ -1,6 +1,12 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem
+}
+
 .botao {
   padding: 1.6rem 3.2rem;
-
+  max-width: max-content; /*ocupa o tamanho max do seu conteudo*/
   color: var(--p5);
   font-size: 1.8rem;
   font-weight: 600;
@@ -16,9 +22,38 @@
   background: linear-gradient(#FFB60d , #e59371);
 }
 
+.botao.secundario {
+  background: var(--c10);
+  color: var(--c2);
+}
+
+.botao.secundario:hover {
+  background: var(--c9);
+}
+
 @media (max-width: 600px) {
   .botao {
     padding: 1.2rem 1.6rem;
     font-size: 1.6rem;
   }
 }
+
+.link {
+  font: 600 2.4rem/1.5 var(--font-poppins);
+  color: var(--p1);
+  display: inline-block;
+  text-transform: uppercase;  
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--w);
+}
+
