@@ -1,5 +1,6 @@
 .header-bg {
   background-color: var(--c12);
+  padding: 2rem 0;
 }
 
 .header {
@@ -46,6 +47,10 @@
 }
 
 @media (max-width: 800px) {
+  .header-bg {
+    padding: 2rem 0; 
+  }
+
   .header-menu {
     gap: 2rem;
   }

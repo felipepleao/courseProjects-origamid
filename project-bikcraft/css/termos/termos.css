@@ -1,0 +1,17 @@
+.termos {
+  padding: 8rem 2rem;
+}
+
+.termos h2 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.termos p + h2 {
+  margin-top: 4rem;
+}
+
+.termos p {
+  margin-bottom: 2.4rem;
+  max-width: 75ch;
+}
