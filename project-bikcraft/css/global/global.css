@@ -18,6 +18,11 @@ a {
   display: inline-block;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 img {
   max-width: 100%;
   display: block;
