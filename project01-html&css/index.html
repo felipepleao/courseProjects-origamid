@@ -10,7 +10,8 @@
       content="Bicicletas elétricas de alta precisão
   e qualidades, feitas sob medida para o cliente. Explore o mundo na sua velocidade com Bikcraft"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preload" href="./css/style.css" as="style" />    
+    <link rel="stylesheet" href="./css/style.css" />    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -50,9 +51,10 @@
           <a href="./bicicletas.html" class="botao">Escolha a sua</a>
         </div>
 
-        <div class="introducao-imagem">
-          <img src="./img/fotos/introducao.jpg" alt="Bicicleta preta" />
-        </div>
+        <picture class="introducao-imagem">
+          <source media="(max-width: 800px)" srcset="./img/bicicleta/nimbus1.jpg">
+          <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta preta" />
+        </picture>
       </div>
     </main>
 
@@ -226,9 +228,7 @@
           <ul class="font-2-m cor-5">
             <li><a href="tel:+55620000000">+55 62 00000-0000</a></li>
             <li>
-              <a href="mailto:contato@bikcraft.com"
-                >contato@bikcraft.com</a
-              >
+              <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
             </li>
             <li>Rua Ali Perto, 42 - Botafogo</li>
             <li>Rio de Janeiro</li>
@@ -259,9 +259,10 @@
             </ul>
           </nav>
         </div>
-        <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
+        <p class="footer-copy font-2-m cor-6">
+          Bikcraft © Alguns direitos reservados.
+        </p>
       </div>
-
     </footer>
   </body>
 </html>
