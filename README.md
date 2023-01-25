@@ -18,7 +18,7 @@
   > Projetos desenvolvidos com as seguintes tecnologias:
   <br><br>[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)<br><br>
   > Link dos projetos:
-  > [Projeto 01](https://github.com/felipepleao/courseProjects-rocketseat/tree/main/projeto01--stg-02),  
+  > [Projeto 01](https://github.com/felipepleao/courseProjects-origamid/tree/main/project01-bikcraft),  
   <br>
   
   ## 🚀 JavaScript
@@ -27,7 +27,7 @@
   > Projetos desenvolvidos com as seguintes tecnologias:
   <br><br>[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)<br><br>
   > Link dos projetos:
-  > [Projeto 02](https://github.com/felipepleao/courseProjects-rocketseat/tree/main/projeto04--stg-03)  
+  > [Projeto 02]()  
   <br>
     
   ## 🎓 Desafio-Final
