@@ -33,4 +33,4 @@ Projeto foi desenvolvido para o curso de formação da Origamid, este projeto co
 
 ## 🔖 Layout
 
-Você pode visualizar o projeto através [DESSE LINK]().
+Você pode visualizar o projeto através [DESSE LINK](https://felipepleao.github.io/courseProjects-origamid/project01-bikcraft/index.html).
